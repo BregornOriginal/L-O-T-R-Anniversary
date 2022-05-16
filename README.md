@@ -1,5 +1,5 @@
-# Capstone-Module1
- Microverse Capstone project module 1
+# Microverse Capstone
+## Project module 1
 
 ## I have this example to follow [DESIGN](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
@@ -11,3 +11,16 @@
 
 - I will respect the colors, font and layout
 - I will use a different topic, It will be about The Lord of the Rings movies.
+
+### Tools
+- Using descriptive PR and Readme
+- GitHub flow
+- Using Linters
+- Best Practices
+
+### Technologies used
+
+- HTML
+- CSS
+- JS
+
