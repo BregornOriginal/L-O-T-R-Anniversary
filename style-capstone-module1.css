@@ -1,0 +1,163 @@
+@font-face {
+  font-family: cocogoose light;
+  src: url(./Fonts/Cocogoose-Pro-Thin-trial.ttf);
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: cocogoose gradient;
+  src: url(./Fonts/cocogoose-pro.letterpress.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+
+.first-section {
+  background-image: url(./background-images/mobile-main-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+  width: 100%;
+  padding: 25px 20px 0 30px;
+}
+
+.app-header {
+  height: 40px;
+  width: 45px;
+}
+
+.hamburguer-button {
+  border: none;
+}
+
+.hamburguer-button img {
+  height: 35px;
+  width: 40px;
+}
+
+.first-section h3 {
+  font-family: cocogoose, sans-serif;
+  color: #ec5242;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 65px;
+}
+
+.first-section h1 {
+  font-family: cocogoose gradient, sans-serif;
+  color: #ec5242;
+  font-size: 40px;
+  line-height: 40px;
+  margin-top: 5px;
+}
+
+.first-section p {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  background-color: rgb(249, 249, 249);
+  border: 3px solid white;
+  padding: 15px 20px 15px 10px;
+  margin: 20px 0;
+  color: #272a31;
+}
+
+.first-section h2 {
+  font-family: cocogoose, sans-serif;
+  font-weight: 700;
+  color: #272a31;
+}
+
+.first-section h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
+  color: #272a31;
+}
+
+.main-program {
+  background-image: url(./background-images/main-section-mobile-background2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 20px 15px 50px 15px;
+  gap: 15px;
+}
+
+.main-program hr {
+  width: 10%;
+  border: 1px solid #ec5242;
+}
+
+.gandalf-icon {
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}
+
+.main-program h3 {
+  font-family: 'Lato', sans-serif;
+  color: #d3d3d3;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.interest-section {
+  background-color: rgba(39, 42, 49, 0.77);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+
+.interest-section h3 {
+  margin: 0 30px 0 20px;
+  color: #ec5242;
+}
+
+.interest-section h4 {
+  font-family: 'Lato', sans-serif;
+  color: #d3d3d3;
+  padding: 0 15px 0 50px;
+}
+
+@media only screen and (max-width: 460px) {
+  .interest-section h4 {
+    font-size: 13px;
+  }
+}
+
+.join-button {
+  background-color: #ec5242;
+  padding: 30px 40px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
