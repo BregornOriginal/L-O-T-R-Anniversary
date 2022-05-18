@@ -3,6 +3,7 @@ const $hamburgerMenu = document.getElementById('hamburguer-menu-button');
 const $menuNav = document.getElementById('mobile-menu');
 const $closeButton = document.getElementById('close-button-image');
 const $about = document.getElementById('about');
+const $home = document.getElementById('home');
 
 // Functions
 function hideMobileMenu() {
