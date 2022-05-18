@@ -39,15 +39,15 @@ ul {
 }
 
 .menu-display-off {
-	display: none;
+  display: none;
 }
 
 .disable-scroll {
-	overflow: hidden;
+  overflow: hidden;
 }
 
 .nav-mobile-menu {
-	position: fixed;
+  position: fixed;
   width: 100%;
   height: 100vh;
   z-index: 1;
@@ -56,16 +56,16 @@ ul {
   left: 0;
 }
 
-.nav-mobile-menu ul li{
+.nav-mobile-menu ul li {
   margin: 60px 80px;
 }
 
-.nav-mobile-menu ul li a{
+.nav-mobile-menu ul li a {
   font-family: cocogoose gradient, sans-serif;
   color: #ec5242;
   font-size: 40px;
   line-height: 30px;
-	font-weight: 700;
+  font-weight: 700;
 }
 
 .nav-mobile-menu .close-button {
@@ -75,10 +75,10 @@ ul {
 }
 
 #close-button-image {
-	margin: 100px 80px 0 0;
-	cursor: pointer;
-	width: 70px;
-	height: 70px;
+  margin: 100px 80px 0 0;
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
 }
 
 .first-section {
@@ -90,12 +90,12 @@ ul {
 }
 
 .hamburguer-menu {
-	position: absolute;
+  position: absolute;
   height: 35px;
   width: 40px;
-	margin: 25px 0 0 30px;
-	border: none;
-	cursor: pointer;
+  margin: 25px 0 0 30px;
+  border: none;
+  cursor: pointer;
 }
 
 .logo-container h2 {
@@ -344,7 +344,7 @@ ul {
 }
 
 .first-movies h4 {
-	align-self: center;
+  align-self: center;
 }
 
 .first-movies hr {
@@ -449,7 +449,7 @@ ul {
 }
 
 .polite-text {
-	line-height: 16px;
+  line-height: 16px;
 }
 
 .logo-nav,
@@ -467,41 +467,41 @@ ul {
     display: none;
   }
 
-	
+
   .nav {
-		background-color: white;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     padding: 8px 140px;
   }
-	
+
   .first-section {
-		background-image: url(./background-images/desktop-main-background.png);
+    background-image: url(./background-images/desktop-main-background.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     padding: 160px 0 190px 0;
   }
-	
-	.first-section h3 {
-		font-size: 30px;
-		margin-bottom: 25px;
-		margin-top: 0;
-	}
 
-	.first-section h1 {
-		font-size: 60px;
-		line-height: 60px;
-		margin-top: 0;
-		margin-bottom: 40px;
-	}
+  .first-section h3 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    margin-top: 0;
+  }
 
-	.first-section p {
-		font-size: 23px;
-		margin-top: 0;
-		margin-bottom: 50px;
-		width: 70%;
-	}
+  .first-section h1 {
+    font-size: 60px;
+    line-height: 60px;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+  .first-section p {
+    font-size: 23px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    width: 70%;
+  }
 
   .logo-nav {
     display: flex;
@@ -523,13 +523,13 @@ ul {
     color: #272a31;
     align-items: center;
   }
-	
-	.section-links a {
-			margin-right: 60px;
-	}
+
+  .section-links a {
+    margin-right: 60px;
+  }
 
   .section-links h4 {
-		color: black;
+    color: black;
     font-size: 20px;
     margin-top: 0;
   }
@@ -539,23 +539,23 @@ ul {
     padding-right: 120px;
   }
 
-	.text-container h2 {
-		font-size: 35px;
-		margin-bottom: 20px;
-	}
+  .text-container h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
 
-	.text-container h4 {
-		font-size: 25px;
-	}
+  .text-container h4 {
+    font-size: 25px;
+  }
 
-	.main-program hr {
-		margin-bottom: 40px;
-	}
+  .main-program hr {
+    margin-bottom: 40px;
+  }
 
   .interest-container {
     display: flex;
     gap: 5px;
-		margin-bottom: 70px;
+    margin-bottom: 70px;
   }
 
   .interest-section {
@@ -582,33 +582,33 @@ ul {
     padding: 0;
   }
 
-	.main-program h3 {
-		font-size: 25px;
-		margin-top: 50px;
-	}
+  .main-program h3 {
+    font-size: 25px;
+    margin-top: 50px;
+  }
 
-	.main-program h5 {
-		color: white;
-		font-family: 'Lato', sans-serif;
-		font-size: 25px;
-		font-weight: 400;	
-		border-bottom: 3px solid #bdbdbd;
-	}
+  .main-program h5 {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    border-bottom: 3px solid #bdbdbd;
+  }
 
   .creative-container {
     padding: 140px 125px 55px 120px;
   }
 
-	.creative-container h2 {
-		margin-bottom: 30px;
-	}
+  .creative-container h2 {
+    margin-bottom: 30px;
+  }
 
-	.creative-container hr {
-		width: 10%;
-		align-self: center;
-		background-color: #ec5242;
-		border: 1px solid #ec5242;
-	}
+  .creative-container hr {
+    width: 10%;
+    align-self: center;
+    background-color: #ec5242;
+    border: 1px solid #ec5242;
+  }
 
   .rights-reserved {
     background-color: #2e2e2e;
@@ -621,5 +621,3 @@ ul {
     color: white;
   }
 }
-
-

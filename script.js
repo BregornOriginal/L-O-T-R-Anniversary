@@ -21,4 +21,8 @@ $closeButton.addEventListener('click', () => {
 
 $about.addEventListener('click', () => {
   hideMobileMenu();
-})
+});
+
+$home.addEventListener('click', () => {
+  hideMobileMenu();
+});
