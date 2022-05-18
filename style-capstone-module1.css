@@ -56,14 +56,14 @@ ul {
   left: 0;
 }
 
-.nav-mobile-menu ul {
-  padding: 0 60px;
+.nav-mobile-menu ul li{
+  margin: 60px 80px;
 }
 
 .nav-mobile-menu ul li a{
   font-family: cocogoose gradient, sans-serif;
   color: #ec5242;
-  font-size: 60px;
+  font-size: 40px;
   line-height: 30px;
 	font-weight: 700;
 }
@@ -90,8 +90,10 @@ ul {
 }
 
 .hamburguer-menu {
+	position: absolute;
   height: 35px;
   width: 40px;
+	margin: 25px 0 0 30px;
 	border: none;
 	cursor: pointer;
 }
@@ -108,7 +110,7 @@ ul {
   color: #ec5242;
   font-size: 25px;
   line-height: 30px;
-  margin-top: 65px;
+  margin-top: 130px;
 }
 
 .first-section h1 {
@@ -131,7 +133,7 @@ ul {
 
 .first-section h2 {
   font-family: cocogoose light, sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   color: #272a31;
 }
 
@@ -238,7 +240,7 @@ ul {
   color: #ec5242;
   font-size: 40px;
   line-height: 40px;
-  margin-top: 5px;
+  padding-top: 90px;
 }
 
 .creative-container p {
@@ -341,6 +343,10 @@ ul {
   align-self: center;
 }
 
+.first-movies h4 {
+	align-self: center;
+}
+
 .first-movies hr {
   width: 10%;
   background-color: #ec5242;
@@ -435,15 +441,22 @@ ul {
   flex-wrap: nowrap;
   justify-content: space-evenly;
   background-color: white;
-  padding: 40px 40px;
+  padding: 25px 40px;
 }
 
 .rights-reserved h3 {
   color: #272a31;
 }
 
+.polite-text {
+	line-height: 16px;
+}
+
 .logo-nav,
-.section-links {
+.section-links,
+.main-program h5,
+.creative-container h3,
+.creative-container hr {
   display: none;
 }
 
@@ -467,13 +480,13 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    padding: 0 0 140px 0;
+    padding: 160px 0 190px 0;
   }
 	
 	.first-section h3 {
 		font-size: 30px;
-		margin-top: 140px;
 		margin-bottom: 25px;
+		margin-top: 0;
 	}
 
 	.first-section h1 {
@@ -510,11 +523,15 @@ ul {
     color: #272a31;
     align-items: center;
   }
+	
+	.section-links a {
+			margin-right: 60px;
+	}
 
   .section-links h4 {
+		color: black;
     font-size: 20px;
     margin-top: 0;
-    margin-right: 70px;
   }
 
   .text-container {
@@ -565,10 +582,6 @@ ul {
     padding: 0;
   }
 
-	.main-program {
-		height: 60vh;
-	}
-
 	.main-program h3 {
 		font-size: 25px;
 		margin-top: 50px;
@@ -583,29 +596,30 @@ ul {
 	}
 
   .creative-container {
-    padding: 0 125px 55px 120px;
+    padding: 140px 125px 55px 120px;
   }
 
-  .first-movies h3 {
-    align-self: center;
-  }
+	.creative-container h2 {
+		margin-bottom: 30px;
+	}
 
-  .first-movies h4 {
-    align-self: center;
-  }
+	.creative-container hr {
+		width: 10%;
+		align-self: center;
+		background-color: #ec5242;
+		border: 1px solid #ec5242;
+	}
 
   .rights-reserved {
     background-color: #2e2e2e;
     color: white;
-    padding: 80px 80px;
+    padding: 30px 80px;
     align-items: center;
   }
 
   .rights-reserved h3 {
     color: white;
   }
-
-  .polite-text {
-    line-height: 35px;
-  }
 }
+
+
