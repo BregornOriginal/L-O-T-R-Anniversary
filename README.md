@@ -24,3 +24,4 @@
 - CSS
 - JS
 
+[GitHub Pages](https://bregornoriginal.github.io/capstone-module1/)
