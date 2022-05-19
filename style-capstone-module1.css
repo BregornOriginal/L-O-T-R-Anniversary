@@ -767,27 +767,13 @@ ul {
   .grid-container {
     display: grid;
     gap: 10px;
-    grid-template-rows: 2.5fr 2.5fr 2.5fr;
+    grid-template-rows: 2.5fr 2.5fr;
     grid-template-columns: 0.5fr 0.5fr;
     margin-left: 10px;
   }
 
   .actor-hidden {
     display: flex;
-  }
-
-  @media only screen and (min-width: 1100px) {
-    .grid-container {
-      display: grid;
-      gap: 10px;
-      grid-template-rows: 2.5fr 2.5fr;
-      grid-template-columns: 0.5fr 0.5fr 0.5fr;
-      margin-left: 10px;
-    }
-
-    .actor-hidden {
-      display: flex;
-    }
   }
 
   .desktop-container {
