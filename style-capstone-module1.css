@@ -586,20 +586,24 @@ ul {
 .main-program h5,
 .creative-container h3,
 .creative-container hr,
-.nav-social-icons {
+.nav-social-icons,
+.desktop-container,
+.desktop-rights-reserved,
+.desktop-rights-reserved-about {
   display: none;
 }
 
 @media only screen and (min-width: 768px) {
   .hamburguer-menu,
   .join-button,
-  .mobile-container,
   .see-more,
-  #button-see-more {
+  #button-see-more,
+  .mobile-container,
+  .rights-reserved {
     display: none;
   }
 
-  .nav-social-icons {
+   .nav-social-icons {
     display: block;
   }
 
@@ -786,6 +790,32 @@ ul {
     }
   }
 
+  .desktop-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #414246;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .desktop-container h3 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 20px;
+  }
+  
+  .desktop-container hr {
+    width: 10%;
+    background-color: #963328;
+    border: 1px solid #963328;
+    align-self: center;
+    text-align: center;
+  }
+  
+
   .first-movies {
     padding: 40px 140px;
   }
@@ -808,35 +838,36 @@ ul {
     float: right;
   }
 
-  .rights-reserved {
-    background-color: white;
-    padding: 60px 80px;
-    align-items: center;
-  }
-
-  .mobile-container {
+  .desktop-rights-reserved {
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: #414246;
-    width: 100%;
-    height: 100%;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 60px 40px;
+  }
+  
+  .desktop-rights-reserved h3 {
+    font-family: 'Lato', sans-serif;
+    color: #272a31;
   }
 
-  .mobile-container h3 {
+  .desktop-rights-reserved-about {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: #414246;
+    padding: 45px 40px;
+  }
+
+  .desktop-rights-reserved-about h3 {
     font-family: 'Lato', sans-serif;
     color: white;
-    font-size: 18px;
-    line-height: 30px;
-    margin-top: 20px;
   }
 
-  .mobile-container hr {
-    width: 3%;
-    background-color: #963328;
-    border: 1px solid #963328;
-    align-self: center;
-    text-align: center;
+  .desktop-rights-reserved-about .polite-text{
+    color: white;
   }
 
   .new-line-logo {
