@@ -27,7 +27,6 @@ $home.addEventListener('click', () => {
   hideMobileMenu();
 });
 
-
 // Actors object
 
 const $actorList = [{
@@ -106,7 +105,7 @@ for (let i = 0; i < $actorList.length; i += 1) {
   `;
     $gridSection.appendChild($article);
   }
-};
+}
 
 $featuredActors.appendChild($gridSection);
 
@@ -116,17 +115,15 @@ const $moreButton = document.getElementById('see-more-button');
 const $actorHidden = document.querySelectorAll('.actor-hidden');
 
 $moreButton.addEventListener('click', () => {
-
   for (let i = 0; i < $actorHidden.length; i += 1) {
-
     if ($actorHidden[i].classList.value === 'actor-hidden') {
       $actorHidden[i].classList.remove('actor-hidden');
       $actorHidden[i].classList.add('actor-hidden-flex');
-      $moreButton.textContent = 'LESS'
+      $moreButton.textContent = 'LESS';
     } else {
       $actorHidden[i].classList.remove('actor-hidden-flex');
-      $actorHidden[i].classList.add('actor-hidden')
-      $moreButton.textContent = 'MORE'
+      $actorHidden[i].classList.add('actor-hidden');
+      $moreButton.textContent = 'MORE';
     }
   }
-})
+});
