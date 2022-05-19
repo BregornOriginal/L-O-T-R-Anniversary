@@ -34,15 +34,21 @@ Dynamic page
 TECHNOLOGIES USED
 
 🔷HTML
+
 🔷CSS
+
 🔷JAVASCRIPT
 
 TOOLS USED
 
 💠VISUAL STUDIO CODE
+
 💠GITHUB-DESKTOP
+
 💠GITHUB-ACTIONS
+
 💠LINTERS
+
 💠LOOM
 
 [LIVE VERSION GIT-HUB PAGES](https://bregornoriginal.github.io/capstone-module1/)
