@@ -1,5 +1,5 @@
-# Microverse Capstone
-## Project module 1
+# Microverse Bootcamp
+## Capstone module 1
 
 ## I have this example to follow [DESIGN](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
@@ -7,21 +7,40 @@
 
 ### In each versions the design have to be similar like, layout, fonts and colors. But I can choose another topic.
 
-# Today I will start whit the mobile version (up to 768px).
+First Capstone for Microverse Bootcamp!🥳
+This Capstone was made in 3 days. The next features are created.
 
-- I will respect the colors, font and layout
-- I will use a different topic, It will be about The Lord of the Rings movies.
+✅ 2 pages were created for Mobile (up to 768px wide) and Desktop (768px or wider) versions:
 
-### Tools
-- Using descriptive PR and Readme
-- GitHub flow
-- Using Linters
-- Best Practices
+- Home page
+- About page
 
-### Technologies used
+✅ The home page has a link in the menu to the about page.
 
-- HTML
-- CSS
-- JS
+✅ The logo of the page (ring) links to the home page
 
-[GitHub Pages](https://bregornoriginal.github.io/capstone-module1/)
+- Mobile menu:
+
+✅ The hamburger button when is clicked shows the menu over the page
+
+✅ The mobile menu has a close button, that closes the menu
+
+Dynamic page
+
+✅ The section "Featured Actors" was created dynamically in JavaScript
+
+✅ An object in JavaScript was created to store the information of the cars
+
+TECHNOLOGIES USED
+🔷HTML
+🔷CSS
+🔷JAVASCRIPT
+
+TOOLS USED
+💠VISUAL STUDIO CODE
+💠GITHUB-DESKTOP
+💠GITHUB-ACTIONS
+💠LINTERS
+💠LOOM
+
+[LIVE VERSION GIT-HUB PAGES](https://bregornoriginal.github.io/capstone-module1/)
