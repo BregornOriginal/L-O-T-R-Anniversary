@@ -1,37 +1,39 @@
-# Microverse Bootcamp
-## Capstone module 1
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## I have this example to follow [DESIGN](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
+# Lord Of The Ring Anniversary
 
-### In this case I will create the Home page and the About page for mobile and desktop version.
+> First Capstone for Microverse Bootcamp!
+> I choose a topic about the Lord Of The Ring, and create a fictitious website of his Anniversary.
 
-### In each versions the design have to be similar like, layout, fonts and colors. But I can choose another topic.
+> I have this example to follow [DESIGN](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
-First Capstone for Microverse Bootcamp!🥳
 This Capstone was made in 3 days. The next features are created.
 
-✅ 2 pages were created for Mobile (up to 768px wide) and Desktop (768px or wider) versions:
+In this case I will create the Home page and the About page for mobile (up to 768px wide) and Desktop (768px or wider) versions.
 
 - Home page
-- About page
 
+- About page
+ 
 ✅ The home page has a link in the menu to the about page.
 
 ✅ The logo of the page (ring) links to the home page
 
-- Mobile menu:
+***Mobile menu***
 
 ✅ The hamburger button when is clicked shows the menu over the page
 
 ✅ The mobile menu has a close button, that closes the menu
 
-Dynamic page
+***Dynamic page***
 
 ✅ The section "Featured Actors" was created dynamically in JavaScript
 
 ✅ An object in JavaScript was created to store the information of the cars
 
-TECHNOLOGIES USED
+## Build With
+
+### Technologies
 
 🔷HTML
 
@@ -39,7 +41,7 @@ TECHNOLOGIES USED
 
 🔷JAVASCRIPT
 
-TOOLS USED
+### Tools
 
 💠VISUAL STUDIO CODE
 
@@ -51,4 +53,47 @@ TOOLS USED
 
 💠LOOM
 
-[LIVE VERSION GIT-HUB PAGES](https://bregornoriginal.github.io/capstone-module1/)
+## Live Demo
+
+[LOTR CAPSTONE MODULE 1](https://bregornoriginal.github.io/capstone-module1/)
+
+## Getting Started
+
+*This is my first capstone. I'm using Linters to have a check of my code*
+
+**To get a local copy up and running follow these simple example steps**.
+
+### Prerequisites
+
+- You need to have a code editor to be able to run the code. VSCode is most preferred.
+
+### Setup
+
+- To clone the code press in the green button at the top right corner in this page
+- Select the method that you want to clone
+
+### Install
+
+- Run it in your code editor
+
+### Usage
+
+- You can download an extension for VSCode named "Live Server" so you can see the actual project working in the browser
+
+## Authors
+
+👤 Julio Miguel Gagliardi
+
+- GitHub: [@BregornOriginal](https://github.com/BregornOriginal)
+- Twitter: [@Bregorn](https://twitter.com/home)
+- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/julio-miguel-gagliardi-b81829197/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/BregornOriginal/capstone-module1/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
