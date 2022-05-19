@@ -682,6 +682,11 @@ ul {
     padding: 0;
   }
 
+  .first-movies h4 {
+    align-self: center;
+    margin-bottom: 60px;
+  }
+
   .section-links h4:hover {
     color: #ec5242;
     filter: brightness(1.75);
@@ -781,17 +786,12 @@ ul {
     }
   }
 
-  .first-movies  {
+  .first-movies {
     padding: 40px 140px;
   }
 
   .first-movies hr {
     margin: 10px 0;
-  }
-
-  .first-movies h4 {
-    align-self: center;
-    margin-bottom: 60px;
   }
 
   .trailers-container {
@@ -802,7 +802,7 @@ ul {
     width: 49%;
     float: left;
   }
-  
+
   .two-thrones-container {
     width: 49%;
     float: right;
@@ -825,14 +825,14 @@ ul {
 
   .mobile-container h3 {
     font-family: 'Lato', sans-serif;
-    color: black;
+    color: white;
     font-size: 18px;
     line-height: 30px;
     margin-top: 20px;
   }
 
   .mobile-container hr {
-    width: 10%;
+    width: 3%;
     background-color: #963328;
     border: 1px solid #963328;
     align-self: center;
