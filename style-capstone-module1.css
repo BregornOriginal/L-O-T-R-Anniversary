@@ -50,6 +50,26 @@ ul {
   display: flex;
 }
 
+.nav-social-icons {
+  background-color: #3f3f3f;
+  height: 26px;
+}
+
+.nav-social-icons ul {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  margin-right: 200px;
+}
+
+.nav-social-icons ul li {
+  margin-left: 30px;
+}
+
+.fa-brands .fa-twitter .fa-beat:hover {
+  animation-duration: 2s;
+}
+
 .nav-mobile-menu {
   position: fixed;
   width: 100%;
