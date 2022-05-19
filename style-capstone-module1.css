@@ -603,7 +603,7 @@ ul {
     display: none;
   }
 
-   .nav-social-icons {
+  .nav-social-icons {
     display: block;
   }
 
@@ -784,7 +784,7 @@ ul {
     width: 100%;
     height: 100%;
   }
-  
+
   .desktop-container h3 {
     font-family: 'Lato', sans-serif;
     color: white;
@@ -792,7 +792,7 @@ ul {
     line-height: 30px;
     margin-top: 20px;
   }
-  
+
   .desktop-container hr {
     width: 10%;
     background-color: #963328;
@@ -800,7 +800,7 @@ ul {
     align-self: center;
     text-align: center;
   }
-  
+
 
   .first-movies {
     padding: 40px 140px;
@@ -832,7 +832,7 @@ ul {
     background-color: white;
     padding: 60px 40px;
   }
-  
+
   .desktop-rights-reserved h3 {
     font-family: 'Lato', sans-serif;
     color: #272a31;
@@ -852,7 +852,7 @@ ul {
     color: white;
   }
 
-  .desktop-rights-reserved-about .polite-text{
+  .desktop-rights-reserved-about .polite-text {
     color: white;
   }
 
