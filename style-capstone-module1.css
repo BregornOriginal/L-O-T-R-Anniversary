@@ -1,8 +1,13 @@
 @font-face {
   font-family: cocogoose light;
-  src: url(./Fonts/Cocogoose-Pro-Thin-trial.ttf);
+  src: url(./Fonts/Cocogoose-Pro-Semilight-Italic-trial.ttf);
   font-style: normal;
   font-weight: 300;
+}
+
+@font-face {
+	font-family: cocogoose;
+	src: url(./Fonts/Cocogoose-Pro-Italic-trial.ttf);
 }
 
 @font-face {
@@ -12,10 +17,6 @@
   font-weight: 700;
 }
 
-@font-face {
-  font-family: cocogoose;
-  src: url(./Fonts/Cocogoose-Pro-Italic-trial.ttf);
-}
 
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
@@ -55,7 +56,7 @@ ul {
   width: 100%;
   height: 100vh;
   z-index: 1;
-  background-color: #c2c2c2;
+  background: linear-gradient(#080808, #3f3f3f);
   top: 0;
   left: 0;
 }
@@ -190,6 +191,12 @@ ul {
   margin-bottom: 10px;
 }
 
+.interest-section:hover {
+	background-color: #272a31;
+  transform: translateY(-3%);
+	cursor: pointer;
+}
+
 .interest-section h3 {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
@@ -208,6 +215,10 @@ ul {
   .interest-section h4 {
     font-size: 13px;
   }
+}
+
+.grid-container {
+	margin-left: 10px;
 }
 
 .join-button {
@@ -297,6 +308,7 @@ ul {
 	background-color: white;
 	border: 2px solid #d3d3d3;
 	border-radius: 5%;
+	cursor: pointer;
 }
 
 .disable-scroll {
@@ -393,6 +405,10 @@ ul {
 .logo-icon {
   height: 50px;
   width: 50px;
+}
+
+.logo-icon:hover {
+	filter: brightness(1.75);
 }
 
 .logo-container h3 {
@@ -629,6 +645,11 @@ ul {
     margin-top: 0;
   }
 
+	.section-links h4:hover {
+		color: #ec5242;
+		filter: brightness(1.75);
+	}
+
   .text-container {
     margin: 0 140px 0 140px;
     padding-right: 120px;
@@ -660,9 +681,6 @@ ul {
     padding: 24px 20px;
     margin: 0;
   }
-	.interest-section:hover {
-
-	}
 
   .gandalf-icon {
     height: 80px;
@@ -714,6 +732,7 @@ ul {
 		gap: 10px;
     grid-template-rows: 2.5fr 2.5fr 2.5fr;
     grid-template-columns: 0.5fr 0.5fr;
+		margin-left: 10px;
 	}
 
 	.actor-hidden {
@@ -726,6 +745,7 @@ ul {
 			gap: 10px;
 			grid-template-rows: 2.5fr 2.5fr;
 			grid-template-columns: 0.5fr 0.5fr 0.5fr;
+			margin-left: 10px;
 		}
 		.actor-hidden {
 			display: flex;
