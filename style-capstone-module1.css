@@ -453,10 +453,7 @@ ul {
 .first-movies {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  height: 100vh;
   width: 100%;
-  padding: 30px 40px;
 }
 
 .first-movies h3 {
@@ -465,10 +462,7 @@ ul {
   line-height: 45px;
   font-weight: 900;
   align-self: center;
-}
-
-.first-movies h4 {
-  align-self: center;
+  margin-top: 30px;
 }
 
 .first-movies hr {
@@ -477,6 +471,17 @@ ul {
   border: 1px solid #ec5242;
   align-self: center;
   text-align: center;
+  margin: 10px 0;
+}
+
+.first-movies h4 {
+  align-self: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.trailers-container {
+  margin: 0 40px 40px 40px;
 }
 
 .fellowship-container {
@@ -489,6 +494,7 @@ ul {
   align-items: center;
   font-family: 'Lato', sans-serif;
   color: white;
+  margin-bottom: 20px;
 }
 
 .two-thrones-container {
@@ -498,10 +504,8 @@ ul {
   padding: 90px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   font-family: 'Lato', sans-serif;
   color: white;
-  font-weight: 300;
 }
 
 .mobile-container {
@@ -569,6 +573,7 @@ ul {
 }
 
 .rights-reserved h3 {
+  font-family: 'Lato', sans-serif;
   color: #272a31;
 }
 
@@ -581,7 +586,7 @@ ul {
 .main-program h5,
 .creative-container h3,
 .creative-container hr,
-.partners {
+.nav-social-icons {
   display: none;
 }
 
@@ -592,6 +597,10 @@ ul {
   .see-more,
   #button-see-more {
     display: none;
+  }
+
+  .nav-social-icons {
+    display: block;
   }
 
   .partners {
@@ -772,15 +781,37 @@ ul {
     }
   }
 
-  .rights-reserved {
-    background-color: white;
-    color: black;
-    padding: 60px 80px;
-    align-items: center;
+  .first-movies  {
+    padding: 40px 140px;
   }
 
-  .rights-reserved h3 {
-    color: black;
+  .first-movies hr {
+    margin: 10px 0;
+  }
+
+  .first-movies h4 {
+    align-self: center;
+    margin-bottom: 60px;
+  }
+
+  .trailers-container {
+    margin-bottom: 60px;
+  }
+
+  .fellowship-container {
+    width: 49%;
+    float: left;
+  }
+  
+  .two-thrones-container {
+    width: 49%;
+    float: right;
+  }
+
+  .rights-reserved {
+    background-color: white;
+    padding: 60px 80px;
+    align-items: center;
   }
 
   .mobile-container {
@@ -794,7 +825,7 @@ ul {
 
   .mobile-container h3 {
     font-family: 'Lato', sans-serif;
-    color: white;
+    color: black;
     font-size: 18px;
     line-height: 30px;
     margin-top: 20px;
