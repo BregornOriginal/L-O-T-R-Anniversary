@@ -32,11 +32,13 @@ Dynamic page
 ✅ An object in JavaScript was created to store the information of the cars
 
 TECHNOLOGIES USED
+
 🔷HTML
 🔷CSS
 🔷JAVASCRIPT
 
 TOOLS USED
+
 💠VISUAL STUDIO CODE
 💠GITHUB-DESKTOP
 💠GITHUB-ACTIONS
