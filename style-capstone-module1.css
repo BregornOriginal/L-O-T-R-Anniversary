@@ -42,8 +42,12 @@ ul {
   display: none;
 }
 
-.disable-scroll {
-  overflow: hidden;
+.actor-hidden {
+	display: none;
+}
+
+.actor-hidden-flex{
+	display: flex;
 }
 
 .nav-mobile-menu {
@@ -212,6 +216,91 @@ ul {
   font-family: 'Lato', sans-serif;
   font-weight: 500;
   font-size: 18px;
+}
+
+.featured-actors {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.featured-actors h2 {
+	font-family: 'Lato', sans-serif;
+  color: #414246;
+  font-size: 25px;
+	margin: 35px 0 15px 0;
+}
+
+.featured-actors hr {
+	width: 10%;
+	background-color: #ec5242;
+	border: 1px solid #ec5242;
+}
+
+.actor-1-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 40px 0 40px 0;
+}
+
+.photo-actor-1 {
+	height: 100%;
+	width: 100%;
+}
+
+.actor-1-description {
+	display: flex;
+	flex-direction: column;
+	padding-left: 25px;
+}
+
+.actor-1-description h3 {
+	font-family: 'Lato', sans-serif;
+  color: #414246;
+  font-size: 23px;
+	margin-bottom: 15px;
+}
+
+.actor-1-description h4 {
+	font-family: 'Lato', sans-serif;
+  color: #ec5242;
+  font-size: 15px;
+	margin-bottom: 15px;
+}
+
+.actor-1-description hr {
+	width: 10%;
+	background-color: #d3d3d3;
+	border: 1px solid #d3d3d3;
+	margin-bottom: 15px;
+}
+
+.actor-1-description h5 {
+	font-family: 'Lato', sans-serif;
+  color: #414246;
+  font-size: 12px;
+}
+
+.see-more {
+	align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#see-more-button {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	width: 90%;
+	margin-bottom: 40px;
+	padding: 10px 0;
+	background-color: white;
+	border: 2px solid #d3d3d3;
+	border-radius: 5%;
+}
+
+.disable-scroll {
+  overflow: hidden;
 }
 
 .creative-container {
@@ -456,16 +545,23 @@ ul {
 .section-links,
 .main-program h5,
 .creative-container h3,
-.creative-container hr {
+.creative-container hr,
+.partners {
   display: none;
 }
 
 @media only screen and (min-width: 768px) {
   .hamburguer-menu,
   .join-button,
-  .mobile-container {
+  .mobile-container,
+	.see-more,
+	#button-see-more {
     display: none;
   }
+
+	.partners {
+		display: block;
+	}
 
   .nav {
     background-color: white;
@@ -564,6 +660,9 @@ ul {
     padding: 24px 20px;
     margin: 0;
   }
+	.interest-section:hover {
+
+	}
 
   .gandalf-icon {
     height: 80px;
@@ -587,6 +686,7 @@ ul {
   }
 
   .main-program h5 {
+		display: block;
     color: white;
     font-family: 'Lato', sans-serif;
     font-size: 25px;
@@ -609,14 +709,91 @@ ul {
     border: 1px solid #ec5242;
   }
 
+	.grid-container {
+		display: grid;
+		gap: 10px;
+    grid-template-rows: 2.5fr 2.5fr 2.5fr;
+    grid-template-columns: 0.5fr 0.5fr;
+	}
+
+	.actor-hidden {
+		display: flex;
+	}
+
+	@media only screen and (min-width: 1100px) {
+		.grid-container {
+			display: grid;
+			gap: 10px;
+			grid-template-rows: 2.5fr 2.5fr;
+			grid-template-columns: 0.5fr 0.5fr 0.5fr;
+		}
+		.actor-hidden {
+			display: flex;
+		}
+	}
   .rights-reserved {
-    background-color: #2e2e2e;
-    color: white;
-    padding: 30px 80px;
+    background-color: white;
+    color: black;
+    padding: 60px 80px;
     align-items: center;
   }
 
   .rights-reserved h3 {
-    color: white;
+    color: black;
   }
+
+	.mobile-container {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		background-color: #414246;
+		width: 100%;
+		height: 100%;
+	}
+	
+	.mobile-container h3 {
+		font-family: 'Lato', sans-serif;
+		color: white;
+		font-size: 18px;
+		line-height: 30px;
+		margin-top: 20px;
+	}
+	
+	.mobile-container hr {
+		width: 10%;
+		background-color: #963328;
+		border: 1px solid #963328;
+		align-self: center;
+		text-align: center;
+	}
+	
+	.new-line-logo {
+		height: 120px;
+		width: 120px;
+	}
+	
+	.google-logo {
+		mix-blend-mode: hard-light;
+		height: 50px;
+		width: 110px;
+	}
+	
+	.wb-logo {
+		mix-blend-mode: color-burn;
+		height: 100px;
+		width: 100px;
+	}
+	
+	.chrome-logo {
+		mix-blend-mode: screen;
+		height: 70px;
+		width: 70px;
+	}
+	
+	.footer-logos {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-evenly;
+	}
 }
