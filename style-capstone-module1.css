@@ -1,8 +1,13 @@
 @font-face {
   font-family: cocogoose light;
-  src: url(./Fonts/Cocogoose-Pro-Thin-trial.ttf);
+  src: url(./Fonts/Cocogoose-Pro-Semilight-Italic-trial.ttf);
   font-style: normal;
   font-weight: 300;
+}
+
+@font-face {
+  font-family: cocogoose;
+  src: url(./Fonts/Cocogoose-Pro-Italic-trial.ttf);
 }
 
 @font-face {
@@ -10,11 +15,6 @@
   src: url(./Fonts/cocogoose-pro.letterpress.ttf);
   font-style: normal;
   font-weight: 700;
-}
-
-@font-face {
-  font-family: cocogoose;
-  src: url(./Fonts/Cocogoose-Pro-Italic-trial.ttf);
 }
 
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
@@ -42,8 +42,32 @@ ul {
   display: none;
 }
 
-.disable-scroll {
-  overflow: hidden;
+.actor-hidden {
+  display: none;
+}
+
+.actor-hidden-flex {
+  display: flex;
+}
+
+.nav-social-icons {
+  background-color: #3f3f3f;
+  height: 26px;
+}
+
+.nav-social-icons ul {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  margin-right: 200px;
+}
+
+.nav-social-icons ul li {
+  margin-left: 30px;
+}
+
+.fa-brands .fa-twitter .fa-beat:hover {
+  animation-duration: 2s;
 }
 
 .nav-mobile-menu {
@@ -51,7 +75,7 @@ ul {
   width: 100%;
   height: 100vh;
   z-index: 1;
-  background-color: #c2c2c2;
+  background: linear-gradient(#080808, #3f3f3f);
   top: 0;
   left: 0;
 }
@@ -186,6 +210,12 @@ ul {
   margin-bottom: 10px;
 }
 
+.interest-section:hover {
+  background-color: #272a31;
+  transform: translateY(-3%);
+  cursor: pointer;
+}
+
 .interest-section h3 {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
@@ -206,12 +236,102 @@ ul {
   }
 }
 
+.grid-container {
+  margin-left: 10px;
+}
+
 .join-button {
   background-color: #ec5242;
   padding: 30px 40px;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
   font-size: 18px;
+}
+
+.featured-actors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featured-actors h2 {
+  font-family: 'Lato', sans-serif;
+  color: #414246;
+  font-size: 25px;
+  margin: 35px 0 15px 0;
+}
+
+.featured-actors hr {
+  width: 10%;
+  background-color: #ec5242;
+  border: 1px solid #ec5242;
+}
+
+.actor-1-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 40px 0 40px 0;
+}
+
+.photo-actor-1 {
+  height: 100%;
+  width: 100%;
+}
+
+.actor-1-description {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+}
+
+.actor-1-description h3 {
+  font-family: 'Lato', sans-serif;
+  color: #414246;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+.actor-1-description h4 {
+  font-family: 'Lato', sans-serif;
+  color: #ec5242;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.actor-1-description hr {
+  width: 10%;
+  background-color: #d3d3d3;
+  border: 1px solid #d3d3d3;
+  margin-bottom: 15px;
+}
+
+.actor-1-description h5 {
+  font-family: 'Lato', sans-serif;
+  color: #414246;
+  font-size: 12px;
+}
+
+.see-more {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#see-more-button {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  width: 90%;
+  margin-bottom: 40px;
+  padding: 10px 0;
+  background-color: white;
+  border: 2px solid #d3d3d3;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.disable-scroll {
+  overflow: hidden;
 }
 
 .creative-container {
@@ -306,6 +426,10 @@ ul {
   width: 50px;
 }
 
+.logo-icon:hover {
+  filter: brightness(1.75);
+}
+
 .logo-container h3 {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
@@ -329,10 +453,7 @@ ul {
 .first-movies {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  height: 100vh;
   width: 100%;
-  padding: 30px 40px;
 }
 
 .first-movies h3 {
@@ -341,10 +462,7 @@ ul {
   line-height: 45px;
   font-weight: 900;
   align-self: center;
-}
-
-.first-movies h4 {
-  align-self: center;
+  margin-top: 30px;
 }
 
 .first-movies hr {
@@ -353,6 +471,17 @@ ul {
   border: 1px solid #ec5242;
   align-self: center;
   text-align: center;
+  margin: 10px 0;
+}
+
+.first-movies h4 {
+  align-self: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.trailers-container {
+  margin: 0 40px 40px 40px;
 }
 
 .fellowship-container {
@@ -365,6 +494,7 @@ ul {
   align-items: center;
   font-family: 'Lato', sans-serif;
   color: white;
+  margin-bottom: 20px;
 }
 
 .two-thrones-container {
@@ -374,10 +504,8 @@ ul {
   padding: 90px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   font-family: 'Lato', sans-serif;
   color: white;
-  font-weight: 300;
 }
 
 .mobile-container {
@@ -445,6 +573,7 @@ ul {
 }
 
 .rights-reserved h3 {
+  font-family: 'Lato', sans-serif;
   color: #272a31;
 }
 
@@ -456,15 +585,30 @@ ul {
 .section-links,
 .main-program h5,
 .creative-container h3,
-.creative-container hr {
+.creative-container hr,
+.nav-social-icons,
+.desktop-container,
+.desktop-rights-reserved,
+.desktop-rights-reserved-about {
   display: none;
 }
 
 @media only screen and (min-width: 768px) {
   .hamburguer-menu,
   .join-button,
-  .mobile-container {
+  .see-more,
+  #button-see-more,
+  .mobile-container,
+  .rights-reserved {
     display: none;
+  }
+
+  .nav-social-icons {
+    display: block;
+  }
+
+  .partners {
+    display: block;
   }
 
   .nav {
@@ -533,6 +677,25 @@ ul {
     margin-top: 0;
   }
 
+  .text-container h4 {
+    font-size: 25px;
+  }
+
+  .interest-container h4 {
+    font-size: 18px;
+    padding: 0;
+  }
+
+  .first-movies h4 {
+    align-self: center;
+    margin-bottom: 60px;
+  }
+
+  .section-links h4:hover {
+    color: #ec5242;
+    filter: brightness(1.75);
+  }
+
   .text-container {
     margin: 0 140px 0 140px;
     padding-right: 120px;
@@ -541,10 +704,6 @@ ul {
   .text-container h2 {
     font-size: 35px;
     margin-bottom: 20px;
-  }
-
-  .text-container h4 {
-    font-size: 25px;
   }
 
   .main-program hr {
@@ -576,17 +735,13 @@ ul {
     font-size: 24px;
   }
 
-  .interest-container h4 {
-    font-size: 18px;
-    padding: 0;
-  }
-
   .main-program h3 {
     font-size: 25px;
     margin-top: 50px;
   }
 
   .main-program h5 {
+    display: block;
     color: white;
     font-family: 'Lato', sans-serif;
     font-size: 25px;
@@ -609,14 +764,124 @@ ul {
     border: 1px solid #ec5242;
   }
 
-  .rights-reserved {
-    background-color: #2e2e2e;
-    color: white;
-    padding: 30px 80px;
-    align-items: center;
+  .grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 2.5fr 2.5fr;
+    grid-template-columns: 0.5fr 0.5fr;
+    margin-left: 10px;
   }
 
-  .rights-reserved h3 {
+  .actor-hidden {
+    display: flex;
+  }
+
+  .desktop-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #414246;
+    width: 100%;
+    height: 100%;
+  }
+
+  .desktop-container h3 {
+    font-family: 'Lato', sans-serif;
     color: white;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 20px;
+  }
+
+  .desktop-container hr {
+    width: 10%;
+    background-color: #963328;
+    border: 1px solid #963328;
+    align-self: center;
+    text-align: center;
+  }
+
+  .first-movies {
+    padding: 40px 140px;
+  }
+
+  .first-movies hr {
+    margin: 10px 0;
+  }
+
+  .trailers-container {
+    margin-bottom: 60px;
+  }
+
+  .fellowship-container {
+    width: 49%;
+    float: left;
+  }
+
+  .two-thrones-container {
+    width: 49%;
+    float: right;
+  }
+
+  .desktop-rights-reserved {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 60px 40px;
+  }
+
+  .desktop-rights-reserved h3 {
+    font-family: 'Lato', sans-serif;
+    color: #272a31;
+  }
+
+  .desktop-rights-reserved-about {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: #414246;
+    padding: 45px 40px;
+  }
+
+  .desktop-rights-reserved-about h3 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+  }
+
+  .desktop-rights-reserved-about .polite-text {
+    color: white;
+  }
+
+  .new-line-logo {
+    height: 120px;
+    width: 120px;
+  }
+
+  .google-logo {
+    mix-blend-mode: hard-light;
+    height: 50px;
+    width: 110px;
+  }
+
+  .wb-logo {
+    mix-blend-mode: color-burn;
+    height: 100px;
+    width: 100px;
+  }
+
+  .chrome-logo {
+    mix-blend-mode: screen;
+    height: 70px;
+    width: 70px;
+  }
+
+  .footer-logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
   }
 }
