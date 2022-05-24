@@ -88,7 +88,7 @@ In this case I will create the Home page and the About page for mobile (up to 76
 - Twitter: [@Bregorn](https://twitter.com/home)
 - LinkedIn: [@LinkedIn](https://www.linkedin.com/in/julio-miguel-gagliardi-b81829197/)
 
-> I want to say tank you to Cindy Shin in Behance for share her design
+> I want to say thank you to Cindy Shin in Behance for share her design
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
