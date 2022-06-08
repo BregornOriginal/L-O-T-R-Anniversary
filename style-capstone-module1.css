@@ -50,6 +50,12 @@ ul {
   display: flex;
 }
 
+.disable-scroll {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
 .nav-social-icons {
   background-color: #3f3f3f;
   height: 26px;
@@ -474,6 +480,12 @@ ul {
   margin: 10px 0;
 }
 
+.first-movies h3 {
+  align-self: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 .first-movies h4 {
   align-self: center;
   text-align: center;
@@ -482,6 +494,11 @@ ul {
 
 .trailers-container {
   margin: 0 40px 40px 40px;
+}
+
+.trailers-container a:hover {
+  transition-timing-function: 0.5s;
+  filter: brightness(1.25);
 }
 
 .fellowship-container {
@@ -813,14 +830,25 @@ ul {
     margin-bottom: 60px;
   }
 
+  
   .fellowship-container {
     width: 49%;
     float: left;
   }
 
+  .fellowship-container:hover {
+    transition-duration: 0.5s;
+    width: 50%;  
+  }
+
   .two-thrones-container {
     width: 49%;
     float: right;
+  }
+
+  .two-thrones-container:hover {
+    transition-duration: 0.5s;
+    width: 50%;  
   }
 
   .desktop-rights-reserved {
