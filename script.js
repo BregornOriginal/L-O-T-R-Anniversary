@@ -8,11 +8,13 @@ const $home = document.getElementById('home');
 // Functions
 function hideMobileMenu() {
   $menuNav.classList.add('menu-display-off');
+  $menuNav.classList.remove('disable-scroll');
 }
 
 // Dom Manipulation
 $hamburgerMenu.addEventListener('click', () => {
   $menuNav.classList.remove('menu-display-off');
+  $menuNav.classList.add('disable-scroll');
 });
 
 $closeButton.addEventListener('click', () => {
