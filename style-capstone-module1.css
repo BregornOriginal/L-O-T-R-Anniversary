@@ -837,6 +837,7 @@ ul {
   }
 
   .fellowship-container:hover {
+    cursor: pointer;
     transition-duration: 0.5s;
     width: 50%;  
   }
@@ -847,6 +848,7 @@ ul {
   }
 
   .two-thrones-container:hover {
+    cursor: pointer;
     transition-duration: 0.5s;
     width: 50%;  
   }
