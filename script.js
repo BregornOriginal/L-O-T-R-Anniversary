@@ -4,17 +4,20 @@ const $menuNav = document.getElementById('mobile-menu');
 const $closeButton = document.getElementById('close-button-image');
 const $about = document.getElementById('about');
 const $home = document.getElementById('home');
+const $html = document.querySelector('html');
 
 // Functions
 function hideMobileMenu() {
   $menuNav.classList.add('menu-display-off');
   $menuNav.classList.remove('disable-scroll');
+  $html.classList.remove('disable-scroll');
 }
 
 // Dom Manipulation
 $hamburgerMenu.addEventListener('click', () => {
   $menuNav.classList.remove('menu-display-off');
   $menuNav.classList.add('disable-scroll');
+  $html.classList.add('disable-scroll');
 });
 
 $closeButton.addEventListener('click', () => {
