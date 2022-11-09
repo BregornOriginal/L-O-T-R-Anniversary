@@ -132,3 +132,5 @@ $moreButton.addEventListener('click', () => {
     }
   }
 });
+
+export { hideMobileMenu };
