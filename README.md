@@ -55,7 +55,7 @@ In this case I will create the Home page and the About page for mobile (up to 76
 
 ## Live Demo
 
-[LOTR CAPSTONE MODULE 1](https://bregornoriginal.github.io/capstone-module1/)
+[LOTR CAPSTONE MODULE 1](https://bregornoriginal.github.io/L-O-T-R-Anniversary/)
 
 ## Getting Started
 
